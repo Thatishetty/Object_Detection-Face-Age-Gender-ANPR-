@@ -1,0 +1,59 @@
+# Python cache and environment
+# Ignore Python bytecode and cache directories
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+env/
+venv/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Log files and output
+logs/
+*.log
+
+# Number plate and cropped images
+number_plates/
+logs/plates/
+
+# Model files
+*.pt
+*.caffemodel
+*.prototxt
+
+# CSV output
+logs/*.csv
+
+# IDE/project files
+.vscode/
+.idea/
+
+# Age/gender model files
+age_deploy.prototxt
+age_deploy.caffemodel
+gender_deploy.prototxt
+gender_net.caffemodel
+
+# Temporary/backup files
+*.tmp
+*.temp
+*.bak
+
+# YOLO model
+yolov8n.pt
+
+# Tesseract logs
+tess_logs/
+
+# Remove duplicates and incorrect entries
+
+number_plates

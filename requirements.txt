@@ -3,7 +3,7 @@ charset-normalizer==3.4.2
 click==8.2.1
 contourpy==1.3.2
 cycler==0.12.1
-dlib @ file:///Users/runner/miniforge3/conda-bld/dlib_1697537213499/work
+#dlib @ file:///Users/runner/miniforge3/conda-bld/dlib_1697537213499/work
 easyocr==1.7.2
 face-recognition==1.3.0
 face_recognition_models==0.3.0
@@ -20,9 +20,9 @@ matplotlib==3.10.3
 mpmath==1.3.0
 networkx==3.4.2
 ninja==1.11.1.4
-numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1707225416355/work/dist/numpy-1.26.4-cp310-cp310-macosx_11_0_arm64.whl#sha256=14c628943f67e9c10d22faa9c1cdcbf69c3192e88f2f597d03b77a252e589567
-opencv-python==4.10.0
-opencv-python-headless==4.10.0
+#numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1707225416355/work/dist/numpy-1.26.4-cp310-cp310-macosx_11_0_arm64.whl#sha256=14c628943f67e9c10d22faa9c1cdcbf69c3192e88f2f597d03b77a252e589567
+opencv-python
+opencv-python-headless
 packaging==25.0
 pandas==2.3.1
 pillow==11.3.0

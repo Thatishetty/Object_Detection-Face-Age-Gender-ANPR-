@@ -48,7 +48,8 @@ known_image = face_recognition.load_image_file("p1.jpg")
 known_encoding = face_recognition.face_encodings(known_image)[0]
 
 # Start video
-cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("rtsp://admin:Sunnet1q2w@192.168.0.63:554/stream")#Server Room
 
 while True:
     ret, frame = cap.read()

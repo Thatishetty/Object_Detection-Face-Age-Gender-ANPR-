@@ -14,7 +14,8 @@ gender_net = cv2.dnn.readNetFromCaffe("gender_deploy.prototxt", "gender_net.caff
 AGE_LIST = ['(0-2)', '(4-6)', '(8-12)', '(15-20)', '(25-32)', '(38-43)', '(48-53)', '(60-100)']
 GENDER_LIST = ['Male', 'Female']
 
-cap = cv2.VideoCapture(0)
+#cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("rtsp://admin:Sunnet1q2w@192.168.0.63:554/stream")#Server Room
 
 while True:
     ret, frame = cap.read()
