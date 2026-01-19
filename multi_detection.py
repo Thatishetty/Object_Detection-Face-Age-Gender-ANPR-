@@ -17,7 +17,7 @@ gender_net = cv2.dnn.readNetFromCaffe("gender_deploy.prototxt", "gender_net.caff
 # Initialize EasyOCR
 reader = easyocr.Reader(['en'])
 
-AGE_LIST = ['(0-2)', '(4-6)', '(8-12)', '(15-20)', '(25-32)', '(38-43)', '(48-53)', '(60-100)']
+AGE_LIST = ['(0-2)', '(4-6)', '(8-12)', '(15-20)', '(25-32)', '(33-37)', '(38-43)', '(48-53)', '(60-100)']
 GENDER_LIST = ['Male', 'Female']
 
 # Define common object labels (you can customize this list)
