@@ -65,10 +65,10 @@ def predict_age_gender(face_img):
     return gender, age
 
 # Video Capture
-# cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)
 # cap = cv2.VideoCapture("rtsp://admin:Sunnet1q2w@192.168.0.63:554/stream")#Server Room
 # cap = cv2.VideoCapture("rtsp://admin:Sunnet1q2w@192.168.0.64:554/stream")#Main Road
-cap = cv2.VideoCapture("rtsp://admin:Sunnet1q2w@192.168.0.65:554/stream")#Parking Area
+# cap = cv2.VideoCapture("rtsp://admin:Sunnet1q2w@192.168.0.65:554/stream")#Parking Area
 
 while True:
     ret, frame = cap.read()
